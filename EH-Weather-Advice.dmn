@@ -32,7 +32,7 @@
       <dmn:requiredDecision href="#_C84CFCCF-0790-4C7E-AE73-A40A4B2EA9C2"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_FB1729CA-5713-437A-A886-FF9DD5F1273D">
-      <dmn:text>if Name = "" then "Sorry. we don't have enough information to provide a response." else "Hello, hello " + Name + "! " + Weather-Advice</dmn:text>
+      <dmn:text>if Name = "" then "Sorry. we don't have enough information to provide a response." else "Hellohello " + Name + "! " + Weather-Advice</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_AB2B0513-8925-4EBB-BE1B-D533912CA8E6" name="Weather">
@@ -165,7 +165,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="379" y="42" width="100" height="50"/>
+        <dc:Bounds x="380" y="27" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_AB2B0513-8925-4EBB-BE1B-D533912CA8E6" dmnElementRef="_AB2B0513-8925-4EBB-BE1B-D533912CA8E6" isCollapsed="false">
@@ -188,11 +188,11 @@
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_0E98E5FC-0F35-4484-8529-F3EDD07053A5-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_0E98E5FC-0F35-4484-8529-F3EDD07053A5">
         <di:waypoint x="430" y="190"/>
-        <di:waypoint x="429" y="92"/>
+        <di:waypoint x="430" y="77"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_897B59CC-AFE7-401B-96B9-E9057D61990C" dmnElementRef="_897B59CC-AFE7-401B-96B9-E9057D61990C">
         <di:waypoint x="168" y="133.5"/>
-        <di:waypoint x="379" y="67"/>
+        <di:waypoint x="380" y="52"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_728C9CCF-7D6E-48C4-B85D-535EC3A10B2D-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_728C9CCF-7D6E-48C4-B85D-535EC3A10B2D">
         <di:waypoint x="168" y="236"/>
