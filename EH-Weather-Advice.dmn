@@ -32,7 +32,7 @@
       <dmn:requiredDecision href="#_C84CFCCF-0790-4C7E-AE73-A40A4B2EA9C2"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_FB1729CA-5713-437A-A886-FF9DD5F1273D">
-      <dmn:text>if Name = "" then "Sorry. we don't have enough information to provide a response." else "Hello " + Name + "! " + Weather-Advice</dmn:text>
+      <dmn:text>if Name = "" then "Sorry. we don't have enough information to provide a response." else "Hello, hello " + Name + "! " + Weather-Advice</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_AB2B0513-8925-4EBB-BE1B-D533912CA8E6" name="Weather">
